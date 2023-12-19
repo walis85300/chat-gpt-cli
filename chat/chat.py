@@ -18,8 +18,8 @@ class Chat:
             )
 
             return response.choices[0].message.content
-        except Exception as e:
-            raise e
+        except Exception:
+            return "Sorry, I don't know how to respond to that."
 
 
 def build_chat() -> Chat:
