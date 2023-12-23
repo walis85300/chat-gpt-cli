@@ -6,6 +6,7 @@ from rich.console import Console
 
 from chat import build_chat
 
+
 app = typer.Typer()
 
 
